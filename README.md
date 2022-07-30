@@ -24,7 +24,11 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+1- execute "npm install" para instalar as dependencias do projeto.
+2- altere as credenciais do banco de dados para a conexão do mesmo.
+3- execute o comando "npm run start:dev" para iniciar o projeto.
+4- após iniciar o projeto, o usuário deverá abrir o postman/insominia e criar seu usuário com nome, email  e senha na rota "users". Após a criação do usuário, o usuário deverá logar na rota "auth/login" com email e senha. Após logar, deverá pegar o token gerado e passar no authorization do postman para ter acesso as requisições.
+5- o usuário irá digitar o nome do carro que será alugado ou não alterando o campo "rented" para yes/no.
 
 ## Installation
 
